@@ -37,7 +37,7 @@ $ cmake -D CMAKE_BUILD_TYPE=RELEASE \
     -D OPENCV_ENABLE_NONFREE=ON \
     -D INSTALL_PYTHON_EXAMPLES=OFF \
     -D BUILD_EXAMPLES=OFF ..
-make -j4
+make -j2
 sudo make install
 cd /home/pi
 rm opencv.zip
